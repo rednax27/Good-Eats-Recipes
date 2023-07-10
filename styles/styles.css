@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+#recipe-section{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.recipe-container{
+    background-color: #ccc;
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: auto;
+    border: 2px solid bisque;
+}
+
+.recipe-image{
+    max-width: 100%;
+}
+
+.home-logo{
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border: 3px solid black;
+    padding: 1.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    min-width: 10vw;
+    width: 20vw;
+}
+
+.wood-background{
+    background: url(../images/wood-wallpaper.jpg);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-position:center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.white-background{
+    background: rgb(252,247,231);
+}
+
+.header-right{
+    display: flex;
+    gap: 1.5rem;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+

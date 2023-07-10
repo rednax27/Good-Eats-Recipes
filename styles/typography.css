@@ -1,0 +1,56 @@
+.recipe-description{
+    font-size: 1.5rem;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.project-text{
+    font-size: 2rem;
+    max-width: 80%;
+}
+
+.project-header{
+    font-size: 2rem;
+    
+}
+
+.supporting-text{
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-weight: 500;
+    width: 75vw;
+    max-width: 50vw;
+}
+
+.recipe-link{
+    font-size: 1.5rem;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.supporting-section-header{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.white-text{
+    color: white;
+}
+
+.footer-left{
+    font-size: 2rem;
+}
+
+.space-letters{
+    letter-spacing: 0.25rem;
+}
+
+.bigger-font-size{
+    font-size: 1.5rem;
+}
+
+.bold{
+    font-weight: 700;
+}

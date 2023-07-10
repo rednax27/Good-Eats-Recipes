@@ -1,0 +1,134 @@
+/* Mobile-first styles */
+.container {
+    width: 100%;
+    max-width: 37.5rem;
+    margin: 0 auto;
+  }
+  
+  .box {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  @media only screen and (min-width: 100px) {
+    .recipe-section{
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .recipe-container{
+        width: 90%;
+      }
+    
+    #header{
+        flex-direction: column;
+    }
+    
+  }
+  @media only screen and (min-width: 400px) {
+    header{
+      flex-direction: row;
+    }
+
+    .recipe-preparation{
+      max-width: 60vw;
+      min-width: 25vw;
+      margin-right: 0;
+    }
+
+  }
+  /* Tablet styles */
+  @media only screen and (min-width: 600px) {
+    .box {
+      width: 50%;
+      float: left;
+    }
+    a{
+        font-size: 2rem;
+    }
+  
+  
+    .recipe-image{
+      width: 100%;
+    }
+    .supporting-section-right{
+      width: 100%;
+  }
+    .supporting-section-left{
+      width: 100%;
+    }
+    .contact-fields{
+      align-items: center;
+    }
+
+    .recipe-section{
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .recipe-container{
+        width: 45%;
+      }
+      .bigger-font-size{
+        font-size: 2.5rem;
+    }
+
+    .recipe-preparation{
+      max-width: 50vw;
+      min-width: 25vw;
+    }
+
+
+
+
+  }
+  /* Desktop styles */
+  @media only screen and (min-width: 1200px) {
+    .box {
+      width: 25%;
+      float: left;
+    }
+
+    a{
+        font-size: 2rem;
+    }
+
+    .recipe-section{
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .recipe-container{
+      width: 30%;
+    }
+
+    footer{
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .recipe-image{
+        width: 100%;
+      }
+
+    .supporting-section-right{
+      width: 50%;
+  }
+    .supporting-section-left{
+      width: 50%;
+    }
+
+    .contact-form{
+      width: 100%;
+    }
+
+    .contact-fields{
+      width: 60%;
+      align-items: center;
+    }
+
+    .bigger-font-size{
+      font-size: 3.5rem;
+  }
+  }
